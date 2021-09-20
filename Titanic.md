@@ -14,7 +14,7 @@ But i saw the (/urlcapture.php). This service can capture the screenshot of webp
 # Solution
 i tried to see the web page of (/server-status). But we can only see blank in (captured.png).
 
-But i remember that the website's server is apache. I think i don't need to explain more about apache.
+But i remember that the website's server is apache. So i am researching about apache vulnerability. And i saw this blog post. (https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/server-side-request-forgery-apache-server-status/)
 
 So i tried (http://localhost/). It was blank too. but when i tried (http://localhost/server-status/), we got it. (but not flag).
 
